@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:RiigipuhadDem;assembly=RiigipuhadDem"
+             x:Class="RiigipuhadDem.MainPage">
+    <TabbedPage.Children>
+        <local:January/>
+        <local:February/>
+        <local:March/>
+        <local:April/>
+        <local:May/>
+        <local:June/>
+        <local:July/>
+        <local:August/>
+        <local:September/>
+        <local:October/>
+        <local:November/>
+        <local:December/>
+    </TabbedPage.Children>
+</TabbedPage>
