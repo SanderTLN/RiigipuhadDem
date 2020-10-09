@@ -16,6 +16,7 @@ namespace RiigipuhadDem
         public MainPage()
         {
             InitializeComponent();
+            BackgroundColor = Color.Wheat;
         }
     }
 }
