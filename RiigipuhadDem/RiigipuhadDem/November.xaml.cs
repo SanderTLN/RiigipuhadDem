@@ -41,7 +41,7 @@ namespace RiigipuhadDem
                 new Rectangle(380, 100, 280, 60)
             );
             absoluteLayout.Children.Add(
-                new Label { Text = "The 4th: National Unity Day", FontSize = 15 },
+                new Label { Text = "There are no holidays in this month", FontSize = 15 },
                 new Rectangle(380, 150, 280, 60)
             );
             Content = absoluteLayout;

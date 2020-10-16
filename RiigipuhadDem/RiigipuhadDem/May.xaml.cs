@@ -73,7 +73,10 @@ namespace RiigipuhadDem
         }
         private void Btn2_Clicked(object sender, EventArgs e)
         {
-            DisplayAlert("", "", "OK");
+            DisplayAlert("Victory Day", "Victory Day is a holiday that commemorates the surrender of Nazi Germany in 1945." +
+                " It was first inaugurated in the 15 republics of the Soviet Union, following the signing of the German Instrument of Surrender late in the evening on 8 May 1945 (after midnight, thus on 9 May Moscow Time)." +
+                " The Soviet government announced the victory early on 9 May after the signing ceremony in Berlin." +
+                " Although the official inauguration occurred in 1945, the holiday became a non-labour day only in 1965, and only in certain Soviet republics.", "OK");
         }
     }
 }
