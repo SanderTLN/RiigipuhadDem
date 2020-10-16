@@ -16,7 +16,8 @@ namespace RiigipuhadDem
         public MainPage()
         {
             InitializeComponent();
-            BackgroundColor = Color.Wheat;
+            var clr = Color.FromHex("#CC0000");
+            BarBackgroundColor = clr;
         }
     }
 }

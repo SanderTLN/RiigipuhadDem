@@ -4,17 +4,17 @@
              xmlns:local="clr-namespace:RiigipuhadDem;assembly=RiigipuhadDem"
              x:Class="RiigipuhadDem.MainPage">
     <TabbedPage.Children>
-        <local:January/>
-        <local:February/>
-        <local:March/>
-        <local:April/>
-        <local:May/>
-        <local:June/>
-        <local:July/>
-        <local:August/>
-        <local:September/>
-        <local:October/>
-        <local:November/>
-        <local:December/>
+        <local:January BackgroundColor="Snow"/>
+        <local:February BackgroundColor="Snow"/>
+        <local:March BackgroundColor="Orange"/>
+        <local:April BackgroundColor="Orange"/>
+        <local:May BackgroundColor="Orange"/>
+        <local:June BackgroundColor="LightGreen"/>
+        <local:July BackgroundColor="LightGreen"/>
+        <local:August BackgroundColor="LightGreen"/>
+        <local:September BackgroundColor="Yellow"/>
+        <local:October BackgroundColor="Yellow"/>
+        <local:November BackgroundColor="Yellow"/>
+        <local:December BackgroundColor="Snow"/>
     </TabbedPage.Children>
 </TabbedPage>
