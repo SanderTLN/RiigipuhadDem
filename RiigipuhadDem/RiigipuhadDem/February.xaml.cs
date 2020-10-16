@@ -50,11 +50,11 @@ namespace RiigipuhadDem
                 new Rectangle(380, 200, 280, 60)
             );
             absoluteLayout.Children.Add(
-                btn1 = new Button { Text = "More", FontSize = 10 },
+                btn1 = new Button { Text = "More", FontSize = 10, BackgroundColor = Color.FromHex("#FF3300") },
                 new Rectangle(315, 143, 60, 35)
             );
             absoluteLayout.Children.Add(
-                btn2 = new Button { Text = "More", FontSize = 10 },
+                btn2 = new Button { Text = "More", FontSize = 10, BackgroundColor = Color.FromHex("#FF3300") },
                 new Rectangle(315, 193, 60, 35)
             );
             btn1.Clicked += Btn1_Clicked;
